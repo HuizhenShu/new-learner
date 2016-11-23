@@ -1,0 +1,271 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	height: 150px;
+	background: -webkit-linear-gradient(#FCFDFE, #F2F2F7); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#FCFDFE, #F2F2F7); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(#FCFDFE, #F2F2F7); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#FCFDFE, #F2F2F7); /* 标准的语法 */
+}
+
+.container{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.header .logo{
+	margin-left:121px;
+	margin-top:18px;
+	width: 189px;
+	height: 112px;
+}
+
+.container .nav_hd{
+	margin-top: -75px;
+}
+
+.container .nav_hd a{
+	text-decoration: none;
+	margin-right: 50px;
+	float: right;
+	font-family:"Microsoft YaHei";
+	font-size:18px;
+	line-height: 72px;
+	color: #000
+}
+
+.container .nav_hd a:hover{
+	color: #999;
+}
+
+.bg_bd{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg_bd01{
+	background: url(assets/images/kv_bd.jpg);
+	height: 716px;
+}
+
+.container1 .triangle{
+	position: absolute;
+	left: 1024px;
+	top: 464px;
+}
+
+.content .header_ct{
+	position: relative;
+	margin-top: -43px;
+	box-shadow:2px 2px 3px #aaa;
+	width: 450px;
+	z-index: 2;
+}
+
+.content01 .body_ct .hd_bd_ct{
+	position: relative;
+	text-align: center;
+	color: #333;
+	margin-top: 62px;
+	height: 174px;
+}
+
+.content01 .eh{
+	position: relative;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+.content01 .ch{
+	position: relative;
+	margin-top: 28px;
+	font-size: 36px;
+	line-height: 30px;
+}
+
+.content01 .bd_bd_ct{
+	position: relative;
+	margin-top: 46px;
+	font-size:14px;
+	line-height: 30px;
+	color: #72777f;
+}
+
+.content01 .bd_bd_ct hr{
+	position: relative;
+	top: 0px;
+}
+
+.content01 .bd_bd_ct .left{
+	position: relative;
+	top: 69px;
+	margin-right: 76px;
+	width: 504px;
+}
+
+.content01 .bd_bd_ct .datapic{
+	position: relative;
+	margin-top: -162px;
+	left: 607px;
+	width: 444px;
+	clear: both;
+}
+
+.datapic .yzhou{
+	position: absolute;
+	left: -50px;
+	top: 0px;
+	font-size: 14px;
+}
+
+.datapic .xzhou{
+	position: absolute;
+	left: 416px;
+	top: 236px;
+	font-size: 14px;
+}
+
+.content01 .bd_bd_ct .center{
+	text-align: left;
+	margin-top: 72px;
+}
+
+.bg_bd02{
+	background: url(assets/images/kv1_bd.jpg);
+	height: 330px;
+	position: relative;
+	margin-top: 130px;
+}
+
+.container3 .triangle{
+	position: absolute;
+	top: 146px;
+	left: 358px;
+	z-index: 0;
+}
+
+.container4 .header_ct{
+	width: 383px;
+}
+
+.container4 .body_ct{
+	position: relative;
+	top: 78px;
+	height: 954px;
+}
+
+.container4 .ad_bd{
+	position: relative;
+	top: 73px;
+}
+
+.news{
+	position: relative;
+	top: 57px;
+	color: #72777f;
+}
+
+.container .left_text{
+	position: relative;
+	text-align: left;
+	width: 512px;
+	float: left;
+	margin-right: 0px;
+}
+
+.container .right_text{
+	position: relative;
+	text-align: left;
+	width: 512px;
+	float: right;
+}
+
+.bg_bd03{
+	height: 62px;
+	background-size: 100%;
+	background: -webkit-linear-gradient(#e8e8e8, #f1f1f1); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(#e8e8e8, #f1f1f1); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(#e8e8e8, #f1f1f1); /* Firefox 3.6 - 15 */
+	background: linear-gradient(#e8e8e8, #f1f1f1); /* 标准的语法 */
+}
+
+.container6 .header_ct{
+	width: 304px;
+}
+
+.content03{
+	height: 805px;
+	color: #7d8188;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.content03 .body_ct .center{
+	position: relative;
+	margin-top: 72px;
+	text-align: left;
+}
+
+.content03 .body_ct .person{
+	position: relative;
+	margin-top: 82px;
+	
+}
+
+.content03 .body_ct .information{
+	width: 252px;
+	float: left;
+	margin-left:48px;
+	margin-right: 50px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#last{
+	margin-right: 0px;
+}
+
+.information .name{
+	position: relative;
+	margin-top: 46px;
+	font-size: 18px;
+}
+
+.information .intro{
+	position: relative;
+	margin-top: 26px;
+}
+
+.bg_bd04{
+	position: relative;
+	top: 0px;
+	background: url(assets/images/bg_ft.jpg);
+	height: 355px;
+}
+
+.bg_bd04 .logo_ft{
+	position: relative;
+	top: 79px;
+	text-align: center;
+	margin: auto;
+	color: #72777f;
+}
+
+.bg_bd04 .logo_ft img{
+	position: relative;
+	font-size: 12px;
+	width: 186px;
+	height: 110px;
+} 
+
+.bg_bd04 .logo_ft .right{
+	position: relative;
+	margin-top: 57px;
+	font-size: 12px;
+	text-align: center;
+}
